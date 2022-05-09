@@ -1,4 +1,4 @@
-import { Container, Heading, Button, HStack, List, ListItem, Link, Box, SimpleGrid, GridItem } from '@chakra-ui/react'
+import { Container, Heading, Button, List, ListItem, Link, SimpleGrid, GridItem } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import { FaTelegram, FaWhatsapp, FaYandex, FaMapMarkedAlt } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
@@ -36,7 +36,7 @@ const Contacts = () => (
                 leftIcon={<FaWhatsapp />}
                 size='lg'
               >
-                Whats'Up
+                Whats&apos;Up
               </Button>
               </Link>
           </ListItem>

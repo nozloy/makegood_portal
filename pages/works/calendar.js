@@ -1,6 +1,6 @@
-import { Container, Badge, Link, List, ListItem, ListIcon, Icon } from '@chakra-ui/react'
+import { Container, Badge, List, ListItem, ListIcon } from '@chakra-ui/react'
 import { AiFillCheckCircle } from 'react-icons/ai'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
