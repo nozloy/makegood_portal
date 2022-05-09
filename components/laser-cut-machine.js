@@ -112,13 +112,13 @@ const laserCutMachine = () => {
         } else {
           controls.update()
         }
-        //renderer.render(scene, camera)
+        renderer.render(scene, camera)
       }
       const animate = () => {
         if (mixer) {mixer.update(clock.getDelta())}
        renderer.render(scene, camera)
       }
-      //renderer.setAnimationLoop(animate);
+      renderer.setAnimationLoop(animate);
 
       return () => {
         console.log('unmount')
